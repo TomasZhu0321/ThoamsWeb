@@ -9,7 +9,11 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
     />
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 
     <!--==================== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -130,13 +134,13 @@
             </div>
 
             <div class="home__data">
-              <h1 class="home__title">Hi, I'm Thomas</h1>
-              <h3 class="home__subtitle">Fullstack developer</h3>
-              <p class="home__description">
+              <h1 class="animate__animated animate__bounceInLeft home__title">Hi, I'm Thomas</h1>
+              <h3 class="home__subtitle animate__animated animate__flipInX animate__delay-2s">Fullstack developer</h3>
+              <p class="home__description  animate__animated animate__flipInX animate__delay-3s">
                 High level experience in web design and development knowledge,
                 producing quality work.
               </p>
-              <a href="#contact" class="button button--flex">
+              <a href="#contact" class="button button--flex ">
                 Contact Me <i class="uil uil-message button__icon"></i>
               </a>
             </div>
@@ -154,24 +158,47 @@
 
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
+        <h2 class="animate__animated animate__bounceInLeft section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
 
         <div class="about__container container grid">
           <img src="assets/img/self.png" alt="" class="about__img" />
 
-          <div class="about__data">
-            <p class="about__description">
-              Web developer, with extensive knowledge and years of experience,
-              working in web technologies and Ui / Ux design, delivering quality
-              work.
-            </p>
+          <div class="about__data text">
+            <ul services__modal-services grid>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>
+                  Currently enrolled in second year of Electrical and Computer
+                  Engineering Co-op program at McMaster University, and looking
+                  for 4 to 12-month Co-op job starting in Jan 2023.
+                </p>
+              </li>
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>
+                  Well-developed collaboration, communication and teamwork
+                  abilities established through part-time job experience,
+                  extracurricular activities, and classroom projects.
+                </p>
+              </li>
+
+              <li class="services__modal-service">
+                <i class="uil uil-check-circle services__modal-icon"></i>
+                <p>
+                  Highly self-motivated, self-learning, and with full of passion
+                  for Web development, Software Engineering, designed and
+                  deployed 4+ websites for different scenarios from scratch.
+                </p>
+              </li>
+              <li></li>
+            </ul>
 
             <div class="about__buttons">
               <!--==================== Change your CV ====================-->
               <a
                 download=""
-                href="assets/pdf/Alexa-Cv.pdf"
+                href="assets/pdf/DEM.pdf"
                 class="button button--flex"
               >
                 Download CV <i class="uil uil-download-alt button__icon"></i>
@@ -194,51 +221,61 @@
                 <i class="uil uil-brackets-curly skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Frontend developer</h1>
-                  <span class="skills__subtitle">More than 4 years</span>
+                  <h1 class="skills__title">Programming</h1>
+                  <span class="skills__subtitle"></span>
                 </div>
-
                 <i class="uil uil-angle-down skills__arrow"></i>
+
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__js"></span>
+                </div>
               </div>
 
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">HTML</h3>
-                    <span class="skills__number">90%</span>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">95%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__html"></span>
+                    <span class="skills__percentage skills__figma"></span>
                   </div>
                 </div>
-
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">TypeScript</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">CSS</h3>
-                    <span class="skills__number">80%</span>
+                    <span class="skills__number">95%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__css"></span>
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">JavaScript</h3>
-                    <span class="skills__number">60%</span>
+                    <h3 class="skills__name">JAVA</h3>
+                    <span class="skills__number">90%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__js"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">React</h3>
-                    <span class="skills__number">85%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__react"></span>
+                    <span class="skills__percentage skills__firebase"></span>
                   </div>
                 </div>
               </div>
@@ -250,8 +287,7 @@
                 <i class="uil uil-server-network skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Backend developer</h1>
-                  <span class="skills__subtitle">More than 2 years</span>
+                  <h1 class="skills__title">Front-End</h1>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -260,41 +296,51 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">PHP</h3>
-                    <span class="skills__number">80%</span>
+                    <h3 class="skills__name">ReactJS</h3>
+                    <span class="skills__number">95%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__php"></span>
+                    <span class="skills__percentage skills__figma"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Node Js</h3>
-                    <span class="skills__number">70%</span>
+                    <h3 class="skills__name">NextJS</h3>
+                    <span class="skills__number">95%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__node"></span>
+                    <span class="skills__percentage skills__figma"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Firebase</h3>
+                    <h3 class="skills__name">Bootstrap 5</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Tailwind</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">ThreeJS</h3>
                     <span class="skills__number">90%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__firebase"></span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
-                    <span class="skills__number">55%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__python"></span>
                   </div>
                 </div>
               </div>
@@ -308,8 +354,7 @@
                 <i class="uil uil-swatchbook skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Designer</h1>
-                  <span class="skills__subtitle">More than 5 years</span>
+                  <h1 class="skills__title">Back-End</h1>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -318,8 +363,17 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Figma</h3>
-                    <span class="skills__number">90%</span>
+                    <h3 class="skills__name">NodeJS</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Express</h3>
+                    <span class="skills__number">95%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__figma"></span>
@@ -328,21 +382,30 @@
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Sketch</h3>
-                    <span class="skills__number">85%</span>
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__number">95%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__sketch"></span>
+                    <span class="skills__percentage skills__figma"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Mongoose</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__figma"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Photoshop</h3>
-                    <span class="skills__number">85%</span>
+                    <h3 class="skills__name">Sanity</h3>
+                    <span class="skills__number">90%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__photoshop"></span>
+                    <span class="skills__percentage skills__firebase"></span>
                   </div>
                 </div>
               </div>
@@ -354,7 +417,6 @@
       <!--==================== QUALIFICATION ====================-->
       <section class="qualification section" id="edu">
         <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
 
         <div class="qualification__container container">
           <div class="qualification__tabs">
@@ -382,25 +444,20 @@
               <!--=============== QUALIFICATION 1 ===============-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Automation</h3>
+                  <h3 class="qualification__title">B.Eng. in Automation</h3>
                   <span class="qualification__subtitle">Dalian University</span>
-                  <span class="qualification__subtitle">GPA: 89.6/100</span>
+                  <span class="qualification__subtitle">|| GPA: 89.6/100</span>
 
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
                     Sep 2016 - June 2020
                   </div>
+                  <div class="qualification__calendar">Related Courses :</div>
                   <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Sep 2016 - June 2020
-                  </div>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Sep 2016 - June 2020
-                  </div>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Sep 2016 - June 2020
+                    C++ Programming, C Language Programming, Microcomputer
+                    Principle and Interface Technology, Principle of Database
+                    System, Course Design of Embedded System, Computer Control
+                    Technology
                   </div>
                 </div>
 
@@ -419,15 +476,20 @@
 
                 <div>
                   <h3 class="qualification__title">
-                    Electrical and Computer Engineering
+                    MS in Electrical and Computer Engineering
                   </h3>
                   <span class="qualification__subtitle"
                     >McMaster University</span
                   >
-                  <span class="qualification__subtitle">GPA: 3.9/4.0</span>
+                  <span class="qualification__subtitle">|| GPA: 3.9/4.0</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    Sep 2020 - Present
+                    Sep 2021 - Present
+                  </div>
+                  <div class="qualification__calendar">Related Courses :</div>
+                  <div class="qualification__calendar">
+                    Data Structures and Algorithms, Data Science, Information
+                    Theory and Coding, Models of Neuron, Sensor Technolog
                   </div>
                 </div>
               </div>
@@ -475,16 +537,17 @@
       <!--==================== SERVICES ====================-->
       <section class="services section" id="portfolio">
         <h2 class="section__title">Portfolio</h2>
-        <span class="section__subtitle">What i offer</span>
-
+        
+          <span</span>
         <div class="services__container container grid">
           <!--=============== SERVICES 1 ===============-->
           <div class="services__content">
             <div>
-              <i class="uil uil-web-grid services__icon"></i>
+              <!-- services__icon -->
+              <iconify-icon icon="uil:laughing" flip="horizontal" class="services__icon"></iconify-icon>
               <h3 class="services__title">
-                Ui/Ux <br />
-                Designer
+                Video Sharing Website  <br />
+                (Fullstack)
               </h3>
             </div>
             <span class="button--flex button--link services__button">
@@ -496,49 +559,192 @@
               <div class="modal_container container grid">
                 <div>
                   <h4 class="services__modal-title">
-                    Ui/Ux <br />
-                    Designer
+                    Video Sharing Website  <br />
+                    (Fullstack)
                   </h4>
                   <i class="uil uil-times services__modal-close"></i>
                   <ul class="services__modal-services grid">
+                
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>I develop the user interface.</p>
+                      <p>Published a video sharing-based social networking website based on TypeScript. </p>
                     </li>
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>Web page development.</p>
+                      <p>Improved the SEO performance of the page through the Next.js framework.</p>
                     </li>
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>I create ux element interactions.</p>
+                      <p>Attracted more than 10 users and received 95%+ customer satisfaction.</p>
                     </li>
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>I position your company brand.</p>
+                      <p>Integrated OAuth to log in and register users using Google.</p>
                     </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Managed user uploads through Sanity, and accomplished clean web style layout via Tailwind.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Supported users to filter according to video categories.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Users can upload their own videos and comment on other users' videos.</p>
+                    </li>
+                    
                   </ul>
+                
+                  <a 
+                    href="https://tictok-tomaszhu0321.vercel.app/"
+                    class="button button--flex button--small portfolio__button "
+                  >
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+                <div class="video_layout">
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/sRxyGe2IecM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <!--=============== SERVICES 2 ===============-->
+          <div class="services__content">
+            <div>
+              
+              <iconify-icon icon="uil:emoji" flip="horizontal" class="services__icon"></iconify-icon>
+              <h3 class="services__title">
+                E-Commerce <br />
+                (React) 
+              </h3>
+            </div>
+            <span class="button--flex button--link services__button">
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="modal_container container grid">
+                <div>
+                  <h4 class="services__modal-title">
+                    E-Commerce <br />
+                    (React) 
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
                   <ul class="services__modal-services grid">
+                
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>I develop the user interface.</p>
+                      <p>Constructed a fast and user-friendly E-commerce website using React.</p>
                     </li>
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>Web page development.</p>
+                      <p>Supported price sorting, fuzzy search, and filtering of all products to meet the 100% individual needs of users.</p>
                     </li>
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>I create ux element interactions.</p>
+                      <p>Deploy to Netlify.</p>
                     </li>
                     <li class="services__modal-service">
                       <i class="uil uil-check-circle services__modal-icon"></i>
-                      <p>I position your company brand.</p>
+                      <p>Integrated built-in Context API and useReducer Hook for state management avoiding the problem of global variables prop-drilling scenarios.</p>
                     </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Introduced Auth0 to achieve authentication and authorization to enhance the security of user information.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Added Stripe to manage payments, products, shipping rates, and the entire checkout process.</p>
+                    </li>
+           
+               
+                    
                   </ul>
-                  <a
-                    href="#"
-                    class="button button--flex button--small portfolio__button"
+                
+                  <a 
+                    href="https://ecommerce-thomaszhu.netlify.app/"
+                    class="button button--flex button--small portfolio__button "
+                  >
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+                <div class="video_layout">
+                  <iframe width="400" height="300" src="https://www.youtube.com/embed/1cnhJRoDjcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!--=============== SERVICES 3 ===============-->
+          <div class="services__content">
+            <div>
+              <iconify-icon icon="uil:sad-cry" flip="horizontal" class="services__icon"></iconify-icon>
+              <h3 class="services__title">
+                Hamilton Rent <br />
+                (Fullstack) 
+              </h3>
+            </div>
+            <span class="button--flex button--link services__button">
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="modal_container container grid">
+                <div>
+                  <h4 class="services__modal-title">
+                    Hamilton Rent <br />
+                    (Fullstack) 
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+                  <ul class="services__modal-services grid">
+                
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Built front-end view engine using Embedded JavaScript(EJS) with HTML/CSS/JS.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Achieved responsive layout through Bootstrap5. </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Added Joi package for scheme validation, and deployed it to Heroku(PaaS)</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Implemented RESTful APIs to handle HTTP requests and responses using Express.js and Node.js.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Introduced Auth0 to achieve authentication and authorization to enhance the security of user information.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Designed primary database with MongoDB.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Utilized Cloudinary to provide image storage.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p> Integrated MapBox's APIs to demonstrate accommodations location on a dynamic cluster map based on geocode.</p>
+                    </li>
+           
+               
+                    
+                  </ul>
+                
+                  <a 
+                    href="https://obscure-peak-68037.herokuapp.com"
+                    class="button button--flex button--small portfolio__button "
                   >
                     Demo
                     <i class="uil uil-arrow-right button__icon"></i>
@@ -546,8 +752,8 @@
                 </div>
                 <div class="video_layout">
                   <iframe
-                    width="300"
-                    height="200"
+                    width="400"
+                    height="300"
                     src="https://www.youtube.com/embed/EeJG19qkZ5s"
                     title="YouTube video player"
                     frameborder="0"
@@ -559,139 +765,62 @@
             </div>
           </div>
 
-          <!--=============== SERVICES 2 ===============-->
           <div class="services__content">
             <div>
-              <i class="uil uil-arrow services__icon"></i>
+              
+              <iconify-icon icon="uil:kid" flip="horizontal" class="services__icon"></iconify-icon>
               <h3 class="services__title">
-                Frontend <br />
-                Developer
+                Personal Website <br />
+                (JS/HTML/CSS+THREE.JS)
               </h3>
             </div>
-
-            <span class="button--flex button--link services__button">
-              <!-- button button--flex button--small button--link services__button -->
-              View More
-              <i class="uil uil-arrow-right button__icon"></i>
-            </span>
-
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Frontend <br />
-                  Developer
-                </h4>
-                <i class="uil uil-times services__modal-close"></i>
-
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web page development.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I create ux element interactions.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="services__content">
-            <div>
-              <i class="uil uil-arrow services__icon"></i>
-              <h3 class="services__title">
-                Frontend <br />
-                Developer
-              </h3>
-            </div>
-
             <span class="button--flex button--link services__button">
               View More
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Frontend <br />
-                  Developer
-                </h4>
-                <i class="uil uil-times services__modal-close"></i>
-
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web page development.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I create ux element interactions.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
-                  </li>
-                </ul>
+              <div class="modal_container container grid">
+                <div>
+                  <h4 class="services__modal-title">
+                    Personal Website <br />
+                    (JS/HTML/CSS+THREE.JS)
+                  </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+                  <ul class="services__modal-services grid">
+                
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Designed dynamic website using Three.js.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Realized the real-time deformation of the background page through the dat.gui.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Deploy to Netlify.</p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Created responsive personal website portfolio using JavaScript, HTML and CSS showcasing projects and skills.</p>
+                    </li>
+                  
+                  </ul>
+                
+                  <a 
+                    href="https://thomaszhuwebsite.netlify.app"
+                    class="button button--flex button--small portfolio__button "
+                  >
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+               
               </div>
             </div>
           </div>
 
-          <!--=============== SERVICES 3 ===============-->
-          <div class="services__content">
-            <div>
-              <i class="uil uil-pen services__icon"></i>
-              <h3 class="services__title">
-                Branding <br />
-                Designer
-              </h3>
-            </div>
-
-            <span class="button--flex button--link services__button">
-              View More
-              <i class="uil uil-arrow-right button__icon"></i>
-            </span>
-
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Branding <br />
-                  Designer
-                </h4>
-                <i class="uil uil-times services__modal-close"></i>
-
-                <ul class="services__modal-services grid">
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I develop the user interface.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>Web page development.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I create ux element interactions.</p>
-                  </li>
-                  <li class="services__modal-service">
-                    <i class="uil uil-check-circle services__modal-icon"></i>
-                    <p>I position your company brand.</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 

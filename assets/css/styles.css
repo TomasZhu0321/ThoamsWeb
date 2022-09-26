@@ -62,7 +62,7 @@ html {
 }
 
 body {
-  margin: 0 0  0;
+  margin: 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: white;
@@ -111,6 +111,15 @@ img {
   text-align: center;
 }
 
+.animate__animated.animate__bounceInLeft {
+  --animate-duration: 2.5s;
+}
+.animate__animated.animate__flipInX {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__zoomInDown {
+  --animate-duration: 1s;
+}
 /*==================== LAYOUT ====================*/
 .container {
   max-width: 768px;
@@ -412,6 +421,7 @@ img {
 .about__buttons {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 /*==================== SKILLS ====================*/
@@ -514,7 +524,7 @@ img {
 }
 
 .skills__figma {
-  width: 90%;
+  width: 95%;
 }
 
 .skills__sketch {
@@ -679,8 +689,11 @@ img {
   position: relative;
 }
 .video_layout {
+  width:500;
+  height:300;
   display: flex;
   align-items: center;
+  margin-left: 2rem;
 }
 .modal_img {
   width: 400px;
@@ -702,7 +715,9 @@ img {
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
 }
-
+.portfolio__button{
+  margin-top: 2rem;;
+}
 .services__modal-close {
   position: absolute;
   top: 1rem;
@@ -1025,14 +1040,14 @@ img {
     margin: 0 var(--mb-1);
   }
   .qualification__sections {
-    grid-template-columns: 0.5fr;
+    grid-template-columns: 0.fr;
   }
   .services__container {
     grid-template-columns: repeat(2, 300px);
     justify-content: center;
   }
   .services__icon {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .services__content {
     padding: 6rem 0 2rem 2.5rem;
@@ -1085,9 +1100,13 @@ img {
   .header,
   .main,
   .footer__container {
-    padding: 1;
-    width: full;
+    padding: full;
+    width: 100%;
   }
+  .container{
+    max-width:1200px;
+  }
+
 
   .home__blob {
     width: 320px;
